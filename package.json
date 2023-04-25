@@ -1,7 +1,7 @@
 {
-  "name": "@iusantuy/react-components",
+  "name": "@iusantuy/react-native-components",
   "version": "0.0.1",
-  "description": "react components",
+  "description": "react native components",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
@@ -38,6 +38,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native": "^0.71.7",
     "rollup": "^3.19.1",
     "rollup-plugin-dts": "^5.2.0",
     "rollup-plugin-postcss": "^4.0.2",
@@ -45,6 +46,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
+    "react-native": "^0.71.7",
     "tslib": "^2.5.0"
   },
   "main": "dist/cjs/index.js",

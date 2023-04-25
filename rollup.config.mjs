@@ -27,7 +27,7 @@ export default [
             typescript({tsconfig: './tsconfig.json'}),
             postcss()
         ],
-        external: ['react-dom']
+        external: ['react-dom', 'react-native']
     },
     {
         input: 'dist/esm/types/index.d.ts',
